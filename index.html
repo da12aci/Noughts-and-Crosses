@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Xs and Os</title>
+
+</head>
+
+<body>
+<!--Table for the inputs to go in-->
+    <div>
+        <table>
+            <thead>
+                <th id="t_head"colspan="3">Xs and Os</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="clickSquare(0)"></td>
+                    <td onclick="clickSquare(1)"></td>
+                    <td onclick="clickSquare(2)"></td>
+                </tr>
+                <tr>
+                    <td onclick="clickSquare(3)"></td>
+                    <td onclick="clickSquare(4)"></td>
+                    <td onclick="clickSquare(5)"></td>
+                </tr>
+                <tr>
+                    <td onclick="clickSquare(6)"></td>
+                    <td onclick="clickSquare(7)"></td>
+                    <td onclick="clickSquare(8)"></td>
+                </tr>
+            </tbody>
+        </table>               
+    </div>
+<br>
+
+<!--Button Options for player to choose from X, O or Two Player-->
+    <div>
+        <input type="button" id="btn_x" value="New Game as X" onclick="newGame('X');"/>
+        <input type="button" id="btn_o" value="New Game as O" onclick="newGame('O');"/>
+        <input type="button" id="btn_t" value="Two Players" onclick="newGame('X');twoPlayer=true"/>
+    </div>
+    
+    <script src="js/index.js"></script>
+
+</body>
+</html>
