@@ -1,2 +1,2 @@
 # Noughts-and-Crosses
-# A personal project in which I created a noughts and crosses game
+# A simple x's and o's game
